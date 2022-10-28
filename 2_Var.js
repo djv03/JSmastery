@@ -15,6 +15,8 @@ console.log(MyName);
 MyName= "Vipul" ;
 //here MyName had value Dhruvin but now Vipul is overwrite on the MyName
 //so below line will print Vipul
+//here var is not necesarry id use to overwrite varibel as we have done in line 15
+// means only MyName= "Vipul" ; will do the same work
 console.log(MyName);
 
 //***************************************************************************************************************************** */
