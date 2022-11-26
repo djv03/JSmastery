@@ -8,3 +8,12 @@
 // document.querySelectorAll       // nodelist
 
 
+let navlinks = document.querySelectorAll(".navlinks");
+console.log(navlinks);//----->this is to print "navlinks" as nodelist
+
+for (let index = 0; index < navlinks.length; index++) {
+    // console.log(navlinks[index]);---->this is to print each ele of nodelist "navlink" individually
+    
+    navlinks[index].style.backgroundColor="pink";
+    navlinks[index].style.color="red";   
+}
