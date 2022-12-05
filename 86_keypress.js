@@ -6,3 +6,4 @@ console.log(button);
 button.addEventListener("keypress",function(e){
     console.log(e.key);
 })
+
